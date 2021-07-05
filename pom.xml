@@ -332,10 +332,8 @@
 
 <!-- add distribution management -->
 
-<distributionManagement>
-    <repository>
-	<distributionManagement>
-    <repository>
+  <distributionManagement>
+      <repository>
       <uniqueVersion>false</uniqueVersion>
       <id>first</id>
       <name>petclinic</name>
@@ -343,6 +341,7 @@
       <layout>default</layout>
     </repository>
   </distributionManagement>
+
   <profiles>
     <profile>
       <id>m2e</id>
