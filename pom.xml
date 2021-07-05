@@ -330,18 +330,6 @@
     </pluginRepository>
   </pluginRepositories>
 
-<!-- add distribution management -->
-
-  <distributionManagement>
-      <repository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>first</id>
-      <name>petclinic</name>
-      <url>scp:https://github.com/NikosNS/petclinic</url>
-      <layout>default</layout>
-    </repository>
-  </distributionManagement>
-
   <profiles>
     <profile>
       <id>m2e</id>
