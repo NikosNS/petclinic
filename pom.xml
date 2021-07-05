@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>2.4.5</version>
+  <version>3.0.0</version>
  <scm>
     <developerConnection>scm:git:https://github.com/NikosNS/petclinic</developerConnection>
     <tag>petclinic-x.x.x</tag>
@@ -12,7 +12,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.4.5</version>
+    <version>3.0.0</version>
   </parent>
   <name>petclinic</name>
 
@@ -129,6 +129,7 @@
 	 <plugin>
            <groupId>org.apache.maven.plugins</groupId>
            <artifactId>maven-release-plugin</artifactId>
+	   <version>3.0.0-SNAPSHOT</version>
            <configuration>
 		<tagBase>https://github.com/NikosNS/petclinic/tags</tagBase>
 	        <branchBase>https://github.com/NikosNS/petclinic/branches</branchBase>
