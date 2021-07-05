@@ -292,6 +292,17 @@
     </license>
   </licenses>
 
+<distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>first</id>
+      <name>petclinic</name>
+      <url>https://github.com/NikosNS/petclinic</url>
+      <layout>default</layout>
+    </repository>
+    ...
+</distributionManagement>
+
   <repositories>
     <repository>
       <id>spring-snapshots</id>
