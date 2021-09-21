@@ -14,5 +14,11 @@ pipeline {
         echo 'Testing stuff...'
       }
     }
+    stage('Test2') {
+      agent any
+      steps {
+        sh 'cat /etc/hosts'
+     }
+   }
   }
 }
